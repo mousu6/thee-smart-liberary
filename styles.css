@@ -20,7 +20,7 @@ body {
 .navbar a {
     text-decoration: none;
     color: #76e1ff;
-    font-size: 1.2em;
+    font-size: 0.8em;
     transition: color 0.3s;
 }
 
@@ -34,27 +34,33 @@ body {
 }
 
 .welcome h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #ff4dda;
     text-shadow: 0 0 10px #ff4dda, 0 0 20px #ff4dda;
 }
 
 .made-by h2 {
-    font-size: 3em;
+    font-size: 2em;
     color: #ff4dda;
     text-shadow: 0 0 10px #ff4dda, 0 0 20px #ff4dda;
 }
 
 .welcome p {
-    font-size: 1.2em;
+    font-family: "Playwrite GB S", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
     color: #76e1ff;
+
 }
 
 input[type="text"] {
+    width:18rem;
     padding: 10px;
     font-size: 1em;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     outline: none;
 }
 
@@ -64,7 +70,7 @@ button {
     background-color: #ff4dda;
     color: #ffffff;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -81,8 +87,10 @@ button:hover {
 }
 
 footer {
+    position:relative;
+    top:100px;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: #1f1f1f;
     color: #76e1ff;
 }
