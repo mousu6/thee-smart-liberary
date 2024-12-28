@@ -136,4 +136,44 @@ footer {
     scale: 0.95;
 
 }
+                                /* /* register page  */
+
+#register-form{
+    display: inline-block;
+    padding:20px;
+    width:300px;
+    height:450px;
+    outline: none;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #ff4dda;
+}
+#reg-username , 
+#reg-email ,
+#reg-password ,
+#reg-confirm-password{
+    background-color: transparent;
+    outline: none;
+    border-top:2px solid #0f0f0f;
+    border-left:2px solid #0f0f0f;
+    border-right:2px solid #0f0f0f;
+    border-bottom:2px solid #ff4dda ;
+    width: 250px;
+    height:30px;
+    color:azure;  
+}
+.submit{
+    outline: none;
+    width:250px;
+    margin :20px ;
+    box-shadow: 0 0 10px #ff4dda, 0 0 20px #ff4dda;
+}
+.submit:hover{
+    scale: 1.05;
+
+}
+.submit:active{
+    scale: 0.95;
+
+}
 
