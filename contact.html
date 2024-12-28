@@ -7,38 +7,40 @@
     <title>Contact - Smart Library</title>
     <link rel="icon" href="image-removebg-preview.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
         <nav>
             <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-
-                <li><a href="catalog.html">Catalog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="catalog.html"> <i class="fa-solid fa-list"></i> Catalog</a></li>
+                <li><a href="contact.html"> <i class="fa-solid fa-address-book"></i> Contact</a></li>
+                <li><a href="about.html"> <i class="fa-solid fa-address-card"></i> About</a></li>
+                <li><a href="login.html">Login <i class="fa-solid fa-right-to-bracket"></i> </a></li>
+                <li><a href="register.html"> <i class="fa-solid fa-ghost"></i> Register</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="welcome">
-            <h1>Contact Us</h1>
             <form id="contact-form">
+                 <h1>Contact Us</h1>
                 <input type="atext" id="name" placeholder="Your Name" required><br><br>
                 <input type="email" id="email" placeholder="Your Email" required><br><br>
                 <textarea id="message" placeholder="Your Message" required></textarea><br><br>
-                <button type="submit">Send Message</button>
+                <button class="submit" type="submit">Send Message</button>
             </form>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Smart Library. All rights reserved to BATU.</p>
-    </footer>
+    </footer>         
 
     <script>
         const form = document.getElementById('contact-form');
