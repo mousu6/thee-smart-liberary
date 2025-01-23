@@ -150,7 +150,7 @@
                 image: "1984.jpg",
                 banner: "1984-banner4.jpg",
                 description: "A dystopian novel exploring a totalitarian regime's impact on society and individual freedom.",
-                video: "https://www.youtube.com/watch?v=1M-pVgTH4Ug",
+                video: "https://www.youtube.com/embed/1M-pVgTH4Ug",
                 amazon: "https://www.amazon.com/s?k=1984+book"
             },
             "To Kill a Mockingbird": {
@@ -158,7 +158,7 @@
                 image: "to kill a mockingbird.jpg",
                 banner: "showpage-mockingbird.jpg",
                 description: "A story of racial injustice and moral growth set in the American South during the 1930s.",
-                video: "https://www.youtube.com/watch?v=uQnVjkT5MpQ",
+                video: "https://www.youtube.com/embed/uQnVjkT5MpQ",
                 amazon: "https://www.amazon.com/s?k=to+kill+a+mockingbird"
             },
             "The Great Gatsby": {
@@ -182,7 +182,7 @@
                 image: "azazel.jpg",
                 banner: "azazel-banner.jpg",
                 description: "A novel set in the 5th century, exploring themes of identity, faith, and love in a turbulent world.",
-                video: "https://www.youtube.com/embed/WgxOn7v_zNM", // Discussion of "Azazel"
+                video: "https://www.youtube.com/embed/WgxOn7v_zNM",
                 amazon: "https://www.amazon.com/s?k=azazel+novel"
             },
             "Pride and Prejudice": {
@@ -219,7 +219,6 @@
             document.body.innerHTML = '<p style="text-align: center; color: #ff4dda;">Book not found. Please go back and try again.</p>';
         }
 
-
         window.addEventListener('scroll', () => {
             const banner = document.querySelector('.book-banner');
             const scrollY = window.scrollY;
@@ -227,7 +226,6 @@
             banner.style.opacity = Math.max(maxOpacity - scrollY / 400, 0);
         });
     </script>
-
 </body>
 
 </html>
